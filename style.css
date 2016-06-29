@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  margin-top: 100px;
+  color: #fff;
+  vertical-align: 50%;
+  font-weight: 100;
+  text-align: center;
+  font-size: 60px;
+}
+
+#tasks{
+  margin: 0 auto;
+  width: 800px;
+  padding: 20px;
+}
+
+#tasks.unauthorized{
+  text-align: center;
+}
+
+.loginWithAnyDo{
+  background-color: #fff;
+  padding: 20px 40px;
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.taskList li{
+  list-style-type: none;
+  font-size: 28px;
+  color: #fff;
+  padding: 20px;
+  font-weight: 100;
+}
